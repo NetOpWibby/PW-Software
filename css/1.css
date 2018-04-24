@@ -9,6 +9,7 @@ body {
 * {
 	margin:0;
 	padding:0;
+	
 }
 
 #wrapper {
@@ -225,7 +226,7 @@ body {
 	border-bottom:1px solid #2C2C2C;
 }
 
-#sidebar .subnav li a {
+#sidebar .subnav li a {	
 	color:#ccc;
 	text-decoration:none;
 	display:block;
