@@ -1,0 +1,7 @@
+{
+  "apps" : [{
+    "name"            : "PW-Software",
+    "script"          : "/var/www/pw/bin/www",
+    "log_date_format" : "YYYY-MM-DD HH:mm Z",
+  }]
+}

@@ -1,0 +1,95 @@
+.:Basic Concept of NetNavis:.
++NetNavis are computerized humanoid combat data and can talk to their operators and express emotion. they can be fully customizable, ranging frm their appearance, to their personality, to their weaponry. each NetNavi has a standard weapon, a weapon they can call up on their own and use at anytime BUT to use other attacks (BattleChips), they need the help of their operator. NetNavis are generally used to delete viruses, but can be used to help with the operator's occupation.
+
+.:default stats:.
++100 HP
++signature weapon attack is 1
++signature weapon speed is 1
++signature weapon charge is 1
++normal style/ form
+
+.:files that make up NetNavis:.
++Net_Navi. EXE (actual Navi progam)
++Net_Navi1. PNG (Navi frame and blueprint)
++Net_Navi2. PNG (clothing, face, gloves, boots, etc.)
++Net_Navi3. PNG (insignia/ symbol)
++Net_Navi. DLL (tells what vvoice sounds like, what his/ her weapons are, how to execute battlechip info, etc.)
++Weapons. EXE (allows NetNavi to boot this program into .DLL fle to be used by him/ her. this is automatically done for battlechips)
++Stream. DAT (reduces NetNavi to a blue stream of light [color could be customized] and compresses him/ her for faster transmission to areas)
++Net_Navi. LOG (NetNavi's "memory" and it stores info...like your appointments and such)
++Emotion Simulation Program ("defining condition of humanity?"...allows users to interact more with their Navis)
+	+expectation <-> actuality
+	+rage <-> fear
+	+fight <-> flight
+	+pain <-> pleasure
+	+self-asserting <-> self-transcending
+	+instability <-> stability
+	+participating <-> warding-off
+	+relaxation <-> tension
++layers of protection programs...like layers of skin!
+
+.:Chng. BAT:.
++this is a program that acts like a seed to stengthen your Navi. that's why you won't see anything significant when this is first installed. after a certain amount of battles, your Navi will go through a "Style Change" and gain a new elemental attribute as well as other powers.
+
+.:note#1:.
++a Navi needs its personality, physical attributes, mental capabilities, and stength directly linking to its .EXE program.
+
+.:definition#1:.
++personality is the totality of distinctive traits of a specific being and an individually unique, consistent pattern of behaivor and psychological attributes that endure over time and across situations.
+
+.:Mr. Prog:.
++this little green helper programs aren't Navis, but they are close to being them. they can handle simple and complex tasks. i should use a lot of these to help with the projects. another note...Mr. Progs hate uncertainty and so they see the world in terms of zeroes and ones...also, they have a tendency to yell when they speak.
+
+.:definition#2:.
++a.i. is a type of computer system or program that learns, gathers info, and solves problems by creatively thinking for itself.
+
+.:note#2:.
++attack power doubles in CrossFusion...R Guincool Mind...Rush Synchro Chip enhances the user's synchronization level...brainwaves fuse together.
+
+.:mental capabilities:.
++extensive range of vocabulary (like a dictionary)
++calculates in an instant
++remembers/ calls forth previous knowledge
++can remember names and faces
+
+.:left brain:.
++language
++speech
++writing
++calculation
++time sense
++rhythm
++ordering of complex movements
+
+.:right brain:.
++non-verbal
++perceptual skills
++visualization
++spatial skills
++recognition of patterns
+	+faces
+	+melodies
++expression of emotion
++simple language comprehension
+
+.:etc:.
++Latent Learning -> kinda like remembering...attention system with the capability to shift backwards in time to reinforce older information.
++NetNavis can remotely access everything on your PC or PET.
++being that the PET is voice-activated, your NetNavi can type what you dictate for hands-free messaging!
+
+.:Neural Networks:.
++neural networks are networks of processors set up to interact with one another. they are computational paradigms that implement a simplified model of the biological brain. the biological brain consists of local neuron assemblages and dendrte connections. neural networks use highly distributed representations and transformations. the use of neural networks allow AI machines to process info in parallel like the brain and perform calculations much faster.
++the perception is a classification of feedfoward neural networks, the nodes, or artificial neurons, in a layer sum their inputs, which may be weighted, and provide a response (output) if a threshold value is reached. there may be a single layer or more of nodes which direct their output to the next layer.
++a node in neural networks is similar to the neuron of the biological system. it receives input from connections and produces output, which depends on the input. a group of these nodes and their connections for other nodes in the subsequent layer. the group of nodes that are at the same hierachical level form a layer. note that info only proceeds forward, and there are generally no loops in the network. groups of nodes are usually divided into three layers in feedforward neural networks: the input layer, the hidden layer, and the output layer. the input layer is analgous to sensory neurons in that it simply gathers data. the hidden layer is similar to interneurons and is responsible for processing the info along with the output layer, which could be compared to motor
+neurons.
++multi-layer neural networks are usually feed-forward. each node of the preceding layer has a connection with one or more nodes in the subsequent layer. learning techniques, such as back-propagation which requires a loop in the network, are often utilized in multi-layer networks. they work by bringing the network  into a steady state when a certain input is present.
++recurrent neural networks differ from feed-forward networks in that data may flow backwards and forwards. subsequent layers may provide output to preceding layers. nodes may even supply input to themselves.
++a neural network learns by training itself on sample patterns and attempts to locate the error between predictions and actual targets. there are algorithms in use for adjusting synaptic weights.
++neural networks provide solutions to very complex and difficult problems. non-linear problems that cannot be solved with standard algorithms may be solved with a neural network.
++training takes just a fraction of the CPU time that error methods take.
++an artificial neural network is a somewhat simplfied model of the biological neuron, which is a brain cell that is assembled together with weighted connections called synapses.
++neural networks...
+	+can approximate almost any finite dimensional vector function on a set.
+	+can extract very complex mathematical functions.
+	+can do everything a digital computer can do and more.
+	+have the excellent ability to derive meaning from non-linear or imprecise data.	

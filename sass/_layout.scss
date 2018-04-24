@@ -1,0 +1,106 @@
+html,
+body {
+  width: 100%; height: 100%;
+}
+
+body {
+  @include sans;
+
+  background-color: $charcoal;
+  color: rgba($black, 0.85);
+  font-size: 12px;
+  position: relative;
+
+  &:after {
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+
+    animation: twisty 10.5s ease-in-out infinite;
+    background-image: url("../images/carina-foucher-2695.jpg");
+    background-position: center;
+    background-size: cover;
+    content: "";
+    position: fixed;
+    z-index: -1;
+  }
+
+  @media (max-width: 600px) and (orientation: landscape) {
+    header, main, footer {
+      display: none;
+    }
+  }
+}
+
+@keyframes twisty {
+  0%    { transform: scale(1) rotate(0deg); }
+  50%   { transform: scale(1.5) rotate(10deg); }
+  100%  { transform: scale(1) rotate(0deg); }
+}
+
+main {
+  @include center;
+  width: 100%; height: 100%;
+}
+
+.header,
+.footer {
+  background-image: linear-gradient(0deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background-clip: text;
+  color: transparent;
+  cursor: default;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  position: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 1301px) {
+    width: 1200px;
+  }
+
+  @media (max-width: 1300px) and (min-width: 901px) {
+    width: 800px;
+  }
+
+  @media (max-width: 900px) {
+    width: 400px;
+  }
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.33;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:not(:hover) {
+    color: inherit;
+  }
+
+  &:hover {
+    color: $fuchsia;
+  }
+}
+
+
+
+::selection {
+  background-color: $fuchsia;
+}
+
+::-moz-selection {
+  background-color: $fuchsia;
+}

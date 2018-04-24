@@ -1,0 +1,67 @@
+.portrait-wrap {
+  @include center;
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+
+  position: fixed;
+
+  @media (max-width: 900px) {
+    opacity: 0.7;
+  }
+}
+
+.portrait {
+  width: 80%; height: 80%;
+
+  animation: hovering 2.5s ease-in-out infinite;
+  object-fit: contain;
+  object-position: center;
+}
+
+
+
+.dope-links {
+  color: $white;
+  list-style-type: none;
+  position: relative;
+  z-index: 1;
+}
+
+.dope-link {
+  font-size: 1.75rem;
+  letter-spacing: 0.05rem;
+  text-shadow: 0.1rem 0.1rem 0 $charcoal;
+  z-index: 1;
+
+  span {
+    cursor: default;
+    display: block;
+    @include serif;
+    font-size: 60%;
+    font-style: italic;
+    opacity: 0.7;
+    text-transform: lowercase;
+  }
+
+  @media (min-width: 501px) {
+    &:nth-child(even) {
+      text-align: right;
+    }
+  }
+
+  @media (max-width: 500px) {
+    text-align: center;
+
+    &:not(:last-of-type) {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+
+
+@keyframes hovering {
+  0%    { transform: translate(0, 0); }
+  50%   { transform: translate(0, 1rem); }
+  100%  { transform: translate(0, 0); }
+}
