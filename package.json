@@ -4,17 +4,17 @@
   "private": true,
   "dependencies": {
     "body-parser": "^1.18.2",
-    "chewit": "^1.0.1",
-    "compression": "^1.7.1",
+    "chewit": "^1.0.3",
+    "compression": "^1.7.2",
     "cookie-parser": "^1.4.3",
     "debug": "^3.1.0",
-    "express": "^4.16.2",
-    "express-minify-html": "^0.11.5",
+    "express": "^4.16.3",
+    "express-minify-html": "^0.12.0",
     "hbs": "^4.0.1",
     "hbs-utils": "0.0.4",
     "morgan": "^1.9.0",
-    "nodemon": "^1.12.1",
-    "serve-favicon": "^2.4.5"
+    "nodemon": "^1.17.3",
+    "serve-favicon": "^2.5.0"
   },
   "scripts": {
     "sass": "sass --watch sass:public/css --style compressed",
